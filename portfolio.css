@@ -1,5 +1,6 @@
+/* Whenever the user resizes the webpage, the page seizes the content inside to fit the resized webpage*/
 .container{
-    display: flex;
+    display: flex; 
 }
 
 #rise{
@@ -49,6 +50,7 @@
     text-decoration: underline;
 }
 
+/* Created 3 boxes for the content inside */
 .box{
     box-sizing: border-box;
     width: 500px;
