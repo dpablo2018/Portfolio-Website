@@ -13,7 +13,7 @@
     height: 250px;
     text-align: center;
 }
-/*Made a scroll-behavior:smooth si when the user clicks on the nav bar, it scrolls to the s eciton that follows  */ 
+/*Made a scroll-behavior:smooth, so when the user clicks on the nav bar, it scrolls to the seciton clicked */ 
 #section1{
     scroll-behavior: smooth;
     background-color: red;
@@ -51,41 +51,7 @@
     text-decoration: underline;
 }
 
-/*
-.box{
-    box-sizing: border-box;
-    width: 500px;
-    padding: 200px;
-    border-radius: 6px;
-    background-color: green;
-}
-
-.box2{
-    box-sizing: border-box;
-    width: 500px;
-    padding: 200px;
-    border-radius: 6px;
-    background-color: green;
-}
-
-
-.box3{
-    box-sizing: border-box;
-    width: 500px;
-    padding: 200px;
-    border-radius: 6px;
-    background-color: green;
-}
-*/
-
-/* I was messing around with grid,until  ultimately I realized flexbox was easier than creating a whole grid*/
-.container{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-areas: sidebar header header sidebar;
-}
-
+/* Made boxes for projects so users/ future employers can click on */
 .attempt{
     box-sizing: border-box;
     width: 500px;
