@@ -1,14 +1,8 @@
-
+/* Made the whole page's background color gray*/
 body {
     background-color:gray;
-    z-ind
+    
 }
-
-
-
-
-
-
 
 /* Whenever the user resizes the webpage, the page seizes the content inside to fit the resized webpage*/
 .container{
@@ -19,9 +13,12 @@ body {
     text-align: center;
     
 }
+header{
+    background-color: red;
+}
 
 .colour{
-    background-color: red;
+    /*background-color: red;*/ 
     height: 250px;
     text-align: center;
 }
@@ -58,11 +55,12 @@ body {
     text-align: center;
     
 }
-
+//* Basically just mimicked the example webpage to look clickable, but it's just underlined */ 
 #under {
     text-decoration: underline;
 }
 
+/*Made a class to display a grid so the content is fixed with one sidebar on each side and the content baasically aliugned  */
 .container{
     display: grid;
     height: 100vh;
