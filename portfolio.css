@@ -13,6 +13,7 @@
     height: 250px;
     text-align: center;
 }
+/*Made a scroll-behavior:smooth si when the user clicks on the nav bar, it scrolls to the s eciton that follows  */ 
 #section1{
     scroll-behavior: smooth;
     background-color: red;
