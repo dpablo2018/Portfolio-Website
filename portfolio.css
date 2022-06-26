@@ -50,7 +50,7 @@
     text-decoration: underline;
 }
 
-/* Created 3 boxes for the content inside */
+/*
 .box{
     box-sizing: border-box;
     width: 500px;
@@ -67,6 +67,7 @@
     background-color: green;
 }
 
+
 .box3{
     box-sizing: border-box;
     width: 500px;
@@ -74,7 +75,9 @@
     border-radius: 6px;
     background-color: green;
 }
+*/
 
+/* I was messing around with grid,until  ultimately I realized flexbox was easier than creating a whole grid*/
 .container{
     display: grid;
     height: 100vh;
