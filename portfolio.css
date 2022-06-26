@@ -1,3 +1,15 @@
+
+body {
+    background-color:gray;
+    z-ind
+}
+
+
+
+
+
+
+
 /* Whenever the user resizes the webpage, the page seizes the content inside to fit the resized webpage*/
 .container{
     display: flex; 
@@ -49,6 +61,13 @@
 
 #under {
     text-decoration: underline;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: sidebar header header sidebar;
 }
 
 /* Made boxes for projects so users/ future employers can click on */
